@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class WeeklyTemp {
-
+public class WeeklyTemperatures {
+	
 	public static void main(String[] args) {
 		final int NUM_OF_ELEMENTS = 7;
 		Scanner scnr = new Scanner (System.in);
