@@ -1,7 +1,9 @@
 Vin Number: 1
-	Makemake	Colorcolor	Modelmodel
-	Year12	Mileage12345Vin Number: 2
-	Makesedan	Coloryellow	Modelbmw
-	Year123	Mileage5321Vin Number: 3
-	Maketruck	Colorblack	Modelford
-	Year456	Mileage45612
+	Make: make	Color: color	Model: model
+	Year: 12	Mileage: 12345
+Vin Number: 2
+	Make: sedan	Color: yellow	Model: bmw
+	Year: 123	Mileage: 5321
+Vin Number: 3
+	Make: truck	Color: black	Model: ford
+	Year: 456	Mileage: 45612

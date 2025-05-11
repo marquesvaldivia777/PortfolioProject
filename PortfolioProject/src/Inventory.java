@@ -117,11 +117,12 @@ public class Inventory {
 			FileWriter writer = new FileWriter ("Inventory1.txt");
 			for (Automobile a : autoInventory) {
 				writer.write("Vin Number: " + a.getVinNumber());
-				writer.write("\n\tMake" + a.getMake());
-				writer.write("\tColor" + a.getColor());
-				writer.write("\tModel" + a.getModel());
-				writer.write("\n\tYear" + a.getYear());
-				writer.write("\tMileage" + a.getMileage());
+				writer.write("\n\tMake: " + a.getMake());
+				writer.write("\tColor: " + a.getColor());
+				writer.write("\tModel: " + a.getModel());
+				writer.write("\n\tYear: " + a.getYear());
+				writer.write("\tMileage: " + a.getMileage());
+				writer.write("\n");
 			}
 			writer.close();
 			
