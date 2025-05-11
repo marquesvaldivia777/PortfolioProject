@@ -15,8 +15,9 @@ public class TestClass {
 		autoInventory.addVehicle(truck);
 		
 		
-		//autoInventory.addVehicle();						
+								
 		//autoInventory.removeVehicle(truck);
+		//autoInventory.addVehicle();
 		//autoInventory.updateVehicle();
 		
 		autoInventory.printFile();

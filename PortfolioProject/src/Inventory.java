@@ -13,7 +13,6 @@ public class Inventory {
 	public void addVehicle (Automobile auto1) {
 		autoInventory.add(auto1); 
 		System.out.println("Vehicle added successfully");
-		System.out.println();
 		System.out.println(autoInventory);
 		System.out.println();
 	} 
@@ -108,9 +107,9 @@ public class Inventory {
 	}
 	
 	public void printFile() {
-		Scanner scnr = new Scanner(System.in);
+		Scanner s = new Scanner(System.in);
 		System.out.println("Do you want to print to a file: yes/no ");
-		String input = scnr.next();
+		String input = s.next();
 		
 		if (input.equalsIgnoreCase("yes")) {
 		try {
@@ -131,6 +130,6 @@ public class Inventory {
 		
 	} else {System.out.println("Okay");}
 	
-		scnr.close();
+		s.close();
 	}
 }

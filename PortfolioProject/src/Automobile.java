@@ -64,6 +64,7 @@ public class Automobile {
 		Mileage = mileage;
 	}
 	
+	//Overrides toString Method
 	@Override
 	public String toString () {
 		return "Vin Number : " + VinNumber +"\n\tModel: " + Model + "\tColor: " 
