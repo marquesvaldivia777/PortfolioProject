@@ -1,0 +1,7 @@
+Vin Number: 1
+	Makemake	Colorcolor	Modelmodel
+	Year12	Mileage12345Vin Number: 2
+	Makesedan	Coloryellow	Modelbmw
+	Year123	Mileage5321Vin Number: 3
+	Maketruck	Colorblack	Modelford
+	Year456	Mileage45612
